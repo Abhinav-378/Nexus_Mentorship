@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Nexus-starter</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="feeds">
+      <h2>My Homepage</h2>
+      <div>
+        <input type="text" name="query" id="querys" class="query-value" placeholder="Enter the value" style="padding: 5px 10px;border-radius: 10px;">
+        <button class="search-btn" style="font-size: 18px; padding: 5px 10px; border-radius: 12px;border:0;background-color: rgb(136, 184, 210)">Search</button>
+      </div>
+      <template id="feed-template">
+
+        <div class="feed-template">
+          <div>
+            <a href="#">
+              <h6>userId</h6>
+            </a>
+            <b>Title of the Post</b>
+          </div>
+          <p>userPostText</p>
+
+        </div>
+      </template>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
